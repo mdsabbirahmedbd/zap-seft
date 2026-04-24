@@ -109,14 +109,7 @@ cd zip-seft-server
 npm install
 ```
 
-Create `.env` file:
-```env
-PORT=3000
-DB_USER=your_mongodb_user
-SECRET_KEY=your_mongodb_password
-PAYMENT_SECRET=your_stripe_secret_key
-DOMAIN=http://localhost:5173
-```
+
 
 ```bash
 npm run dev
@@ -128,16 +121,6 @@ cd zip-seft-client
 npm install
 ```
 
-Create `.env` file:
-```env
-VITE_apiKey=your_firebase_api_key
-VITE_authDomain=your_firebase_auth_domain
-VITE_projectId=your_firebase_project_id
-VITE_storageBucket=your_firebase_storage_bucket
-VITE_messagingSenderId=your_firebase_messaging_sender_id
-VITE_appId=your_firebase_app_id
-VITE_API_URL=http://localhost:3000
-```
 
 ```bash
 npm run dev
